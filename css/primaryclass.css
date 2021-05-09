@@ -18,6 +18,9 @@ body {
 
 .button-seciton {
 	background-color: #fdf0f0;
+	background-image: url("../Images/background_images/primary.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .buttons {
@@ -68,7 +71,7 @@ p {
 	letter-spacing: 0.1em;
 	cursor: pointer;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 400px;
 	line-height: 45px;
 	max-width: 160px;
 	position: relative;
@@ -84,8 +87,8 @@ p {
 .effect04 {
 	--uismLinkDisplay: var(--smLinkDisplay, inline-flex);
 	display: var(--uismLinkDisplay);
-	color: #000;
-	outline: solid 2px #e0ac1c;
+	color: #ffffff;
+	outline: solid 2px #ffffff;
 	position: relative;
 	transition-duration: 0.4s;
 	overflow: hidden;

@@ -18,6 +18,9 @@ body {
 
 .button-seciton {
 	background-color: #fdf0f0;
+	background-image: url("../Images/background_images/secondary.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .buttons {
@@ -28,9 +31,9 @@ body {
 	text-align: center;
 	width: 100%;
 	margin: 0 auto;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	/* To create more grid in columns add 1fr*/
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 	/* To create more grid in rows add 1fr*/
 	gap: 0px;
 }
@@ -41,11 +44,10 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	background-color: #fdf0f0;
+	/* background-color: #fdf0f0; */
 	padding: 30px 0px;
 	margin-top: 32px;
 	margin-bottom: 31px;
-
 	width: 100%;
 }
 
@@ -69,7 +71,7 @@ p {
 	letter-spacing: 0.1em;
 	cursor: pointer;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 400px;
 	line-height: 45px;
 	max-width: 160px;
 	position: relative;
@@ -86,7 +88,7 @@ p {
 	--uismLinkDisplay: var(--smLinkDisplay, inline-flex);
 	display: var(--uismLinkDisplay);
 	color: #000;
-	outline: solid 2px #e0ac1c;
+	outline: solid 2px #000;
 	position: relative;
 	transition-duration: 0.4s;
 	overflow: hidden;

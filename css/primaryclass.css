@@ -31,9 +31,9 @@ body {
 	text-align: center;
 	width: 100%;
 	margin: 0 auto;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	/* To create more grid in columns add 1fr*/
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 	/* To create more grid in rows add 1fr*/
 	gap: 0px;
 }
